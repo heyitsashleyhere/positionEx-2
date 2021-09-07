@@ -16,12 +16,24 @@ header {
     width: 100vw;
     height: 30vh;
     text-align: center;
+    position: relative;
+}
+
+img {
+    margin-top: 0.5rem;
+    width: 200px;
 }
 
 h1 {
+    font-size: 2.5rem;
     color: orange;
     text-shadow: 3px 3px 5px black;
-    line-height: 30vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* using transform to reposition the center point of the element */
+    /* line-height: 30vh; */
     /* don't forget to use line-height to the container to center */
 }
 
